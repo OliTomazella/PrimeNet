@@ -17,7 +17,7 @@ Foco de Portfólio: Enquanto a Netflix possui uma concentração forte em "Comé
 
 Validação Estatística: Foi aplicado um teste de proporção para verificar se a diferença na quantidade de determinados gêneros entre as plataformas era estatisticamente significante (p-value < 0.05).
 
-🛠️ Como Executar o Projeto
+Como Executar o Projeto
 Clone o repositório: git clone https://github.com/OliTomazella/PrimeNet.git
 
 Instale as dependências: pip install -r requirements.txt
