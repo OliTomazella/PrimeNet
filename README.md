@@ -1,46 +1,25 @@
-## Comparação de Conteúdo: Netflix vs. Amazon Prime Video
-Este projeto realiza uma análise exploratória e estatística comparando os catálogos das duas maiores plataformas de streaming. O objetivo foi entender as estratégias de conteúdo, distribuições de gêneros e validar hipóteses sobre as bibliotecas de títulos.
+Comparativo de Catálogos: Netflix vs. Amazon Prime Video
+Este projeto realiza uma análise exploratória e estatística dos catálogos de duas das maiores plataformas de streaming do mundo. O objetivo foi identificar padrões na distribuição de conteúdos e validar hipóteses sobre a variedade de gêneros utilizando Python e Inferência Estatística.
 
-## Estrutura do Projeto
-01_Data: Contém os datasets originais e as versões tratadas após a limpeza.
+Tecnologias Utilizadas
+Python 3.x
 
-02_notebook: Notebooks numerados que documentam todo o processo de análise.
+Pandas: Manipulação e limpeza de dados (tratamento de nulos e duplicatas).
 
-outputs: Gráficos e visualizações geradas durante o estudo.
+Matplotlib & Seaborn: Visualização de dados e criação de dashboards comparativos.
 
-## Etapas do Desenvolvimento
-O projeto foi dividido em quatro fases principais para garantir a reprodutibilidade:
+Scipy.stats & Statsmodels: Implementação de testes de hipóteses e cálculos estatísticos (Teste Z de proporções).
 
-1.  Limpeza e Tratamento (ETL)
-Amazon Prime: Tratamento de valores nulos, padronização de datas e limpeza de strings na base original.
+Principais Insights
+Volume de Conteúdo: A Amazon Prime apresenta um volume significativamente maior de títulos em categorias como "Drama" e "Ação" em comparação à Netflix.
 
-Netflix: Aplicação do mesmo rigor de limpeza para garantir que as bases fossem comparáveis.
+Foco de Portfólio: Enquanto a Netflix possui uma concentração forte em "Comédias" e "Documentários", a Amazon investe pesadamente em uma diversidade maior de nichos.
 
-Arquivo: 02_notebook/amazon_analise.ipynb e netflix_analise.ipynb
+Validação Estatística: Foi aplicado um teste de proporção para verificar se a diferença na quantidade de determinados gêneros entre as plataformas era estatisticamente significante (p-value < 0.05).
 
-2. Análise Individual
-Exploração de métricas como: ano de lançamento, classificação indicativa e volume de filmes vs. séries em cada plataforma isoladamente.
+🛠️ Como Executar o Projeto
+Clone o repositório: git clone https://github.com/OliTomazella/PrimeNet.git
 
-3. Comparação Direta
-Cruzamento das bases limpas para identificar diferenças na estratégia de catálogo entre Prime Video e Netflix.
+Instale as dependências: pip install -r requirements.txt
 
-Arquivo: 02_notebook/comparação_PrimeNet.ipynb
-
-4. Teste de Hipóteses
-Aplicação de testes estatísticos para validar se as diferenças observadas (como média de lançamentos ou proporção de gêneros) são significativamente diferentes.
-
-Arquivo: 02_notebook/teste_hipoteses_streaming.ipynb
-
-## Principais Tecnologias
-Python (Pandas, Matplotlib, Seaborn)
-
-Estatística Computacional
-
-Jupyter Notebook
-
-## Como visualizar
-Clone o repositório.
-
-Os datasets tratados estão na pasta 01_Data.
-
-Os resultados visuais mais importantes podem ser encontrados na pasta outputs
+Abra o notebook no VS Code para visualizar as análises passo a passo.
